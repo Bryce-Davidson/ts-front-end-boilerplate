@@ -13,8 +13,6 @@ module.exports = {
         port: 8080
     },
     plugins: [
-        // This is just going to ensure we create an html file from the
-        // necessary
         new HtmlWebpackPlugin({
             title: "Development",
             template: "./html.template"
