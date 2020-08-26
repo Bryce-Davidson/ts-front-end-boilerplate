@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js  --open",
     "build": "webpack --config webpack.dev.js",
