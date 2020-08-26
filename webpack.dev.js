@@ -30,7 +30,7 @@ module.exports = {
         filename: "[name].[contentHash].bundle.js",
         path: path.resolve(__dirname, "dist")
     },
-    devtool: "inline-source-map",
+    devtool: "eval-source-map",
     devServer: {
         contentBase: './dist',
         clientLogLevel: 'info',
