@@ -6,6 +6,9 @@ module.exports = {
     entry: {
         main: "./src/index.ts"
     },
+    resolve: {
+        extensions: ['.ts', '.js']  
+    },
     module: {
         rules: [
             {
